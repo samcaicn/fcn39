@@ -14,3 +14,4 @@
 
 eg: boywhp@126.com  FCN ID为邮箱名前缀boywhp，用户名最少长度6位
 
+![image](https://github.com/boywhp/fcn/blob/master/vip/fcn_alipay.jpg)
