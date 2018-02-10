@@ -11,6 +11,6 @@
 # 创建付费帐号步骤
 
 * 支付宝扫码支付100RMB或者200RMB，请务必填写付款备注：**email地址**，你的FCN帐号以及识别码将发送到该邮箱。
-eg: boywhp@126.com  FCN ID为邮箱名前缀boywhp，用户名最少长度6位
+eg: boywhp@126.com  FCN ID为邮箱名前缀boywhp，用户名最少长度6位，付款成功后，会尽快将你帐号信息发送到备注邮箱。
 
 ![image](https://github.com/boywhp/fcn/blob/master/vip/fcn_alipay.jpg)
