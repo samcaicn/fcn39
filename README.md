@@ -11,6 +11,8 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * FCN使用交流QQ群: `592512533` FCN交流论坛 http://bbs.xfconnect.com
 
+* download FCN V3.2Beta https://github.com/boywhp/fcn/releases/download/V3.2_BETA/FCN_V3.2Beta.zip
+
 * download FCN V3.1 FULL 百度网盘 https://pan.baidu.com/s/1dFnR5Hv
 
 * download FCN V3.1 安卓版 https://github.com/boywhp/fcn/releases/download/V3.1/android.zip
