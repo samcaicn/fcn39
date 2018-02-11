@@ -11,7 +11,9 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * FCN使用交流QQ群: `592512533` FCN交流论坛 http://bbs.xfconnect.com
 
-* download FCN V3.2Beta https://github.com/boywhp/fcn/releases/download/V3.2_BETA/FCN_V3.2Beta.zip
+* 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
+
+* download FCN V3.2 Beta https://github.com/boywhp/fcn/releases/download/V3.2_BETA/FCN_V3.2Beta.zip
 
 * download FCN V3.1 FULL 百度网盘 https://pan.baidu.com/s/1dFnR5Hv
 
@@ -29,6 +31,7 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 | Linux操作系统 | linux/fcn_x64/x86
 | Linux 路由器 | linux-embedded/lede|openwrt/fcn_`mips/mipsel/arm/armhf`
 | Linux arm | linux-embedded/`fcn-arm/armbian`
+| Android | Fcn.apk
 
 Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过，openwrt/lede需自行安装`libopenssl`包
 
