@@ -3,10 +3,10 @@
 
 服务器: **vip.xfconnect.com**， 只支持付费帐号登陆，请务必将服务端地址配置成该服务器
 
-|帐号等级|资费|限速|12小时流量配额|创建服务端数量
+|帐号等级|资费|限速|流量配额/日|创建服务端数量
 |-------|----|---|--------|-----
-|普通|100RMB/年|256KB/s|512M|4个
-|高级|200RMB/年|512KB/s|1024M|8个
+|普通|100RMB/年|256KB/s|1024M|4个
+|高级|200RMB/年|512KB/s|2048M|8个
 
 # 创建付费帐号步骤
 
@@ -14,4 +14,4 @@
 
 * 备注: FCN ID为你的邮箱用户名，用户名长度至少6位，付款成功后，会尽快将你帐号信息发送到你的邮箱。
 
-![image](https://github.com/boywhp/fcn/blob/master/vip/fcn_alipay.jpg)
+![image](https://github.com/boywhp/fcn/blob/master/vip/fcn_pay.png)
