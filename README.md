@@ -29,7 +29,7 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 |-------|---
 | Windows操作系统 | windows/fcn_win.exe
 | Linux操作系统 | linux/fcn_x64/x86
-| Linux 路由器 | linux-embedded/lede|openwrt/fcn_`mips/mipsel/arm/armhf`
+| Linux 路由器 | linux-embedded/lede或openwrt/fcn_`mips/mipsel/arm/armhf`
 | Linux arm | linux-embedded/`fcn-arm/armbian`
 | Android | Fcn.apk
 
