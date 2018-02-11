@@ -73,7 +73,8 @@ http://weibo.com/ttarticle/p/show?id=2309404124768579250283
 
 |配置键值|描述
 |-------|---
-| [uid] | FCN_[0001-9999] 8字符FCN ID
+| [uid] | 你的付费帐户名或者FCN_[0001-9999] 8字符FCN ID
+| [uic] | 你的付费帐户8位识别码
 | [name] | 服务器名，建议填写一个有意义的名称
 | [psk] | 管理员账号密码hash或者明文密码，建议使用hash
 | [cipher] | 指定加密算法【aes-256-cfb/aes-128-cfb/chacha20】，默认aes-256-cfb
