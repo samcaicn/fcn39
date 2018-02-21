@@ -13,15 +13,11 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
-* download FCN V3.2 Beta https://github.com/boywhp/fcn/releases/download/V3.2_BETA/FCN_V3.2Beta.zip
+* download FCN V3.2 FULL 百度网盘 https://pan.baidu.com/s/1ht0vkkG
 
-* download FCN V3.1 FULL 百度网盘 https://pan.baidu.com/s/1dFnR5Hv
+* download FCN V3.2 binary https://github.com/boywhp/fcn/releases/download/V3.2/FCN_V3.2.zip
 
-* download FCN V3.1 安卓版 https://github.com/boywhp/fcn/releases/download/V3.1/android.zip
-
-* download FCN V3.1 binary https://github.com/boywhp/fcn/releases/download/V3.1/FCN_V3.1.zip
-
-* download FCN V3.1 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.1/embeded-linux.zip
+* download FCN V3.2 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.2/embeded-linux.zip
 
 * FCN支持操作系统平台
 
