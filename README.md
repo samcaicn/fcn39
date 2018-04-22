@@ -13,13 +13,11 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
-* download FCN V3.3 BETA https://github.com/boywhp/fcn/releases/download/V3.3_BETA/FCN_V3.3_BETA.zip
+* download FCN V3.3 FULL 百度网盘 https://pan.baidu.com/s/1sG3L6wXaramK9-w8OcmoJg
 
-* download FCN V3.2 FULL 百度网盘 https://pan.baidu.com/s/1ht0vkkG
+* download FCN V3.3 binary https://github.com/boywhp/fcn/releases/download/V3.3/FCN_V3.3.zip
 
-* download FCN V3.2 binary https://github.com/boywhp/fcn/releases/download/V3.2/FCN_V3.2.zip
-
-* download FCN V3.2 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.2/embeded-linux.zip
+* download FCN V3.3 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.3/embeded-linux.zip
 
 * FCN支持操作系统平台
 
@@ -86,6 +84,7 @@ http://weibo.com/ttarticle/p/show?id=2309404124768579250283
 | [pport]| 自定义p2p通信端口, 除非服务端可做端口映射，否则不要填
 | [fcn_svr]| 设置公网FCN服务器地址,默认s1.xfconnect.com, 建议不填
 | [notun]| 0/1, 0:自动 1:强制应用层NAT，建议不填
+| [portmap]| 0/1, 是否开启服务端端口转发, 视情填写
 | [route]| 设置路由网段推送列表, 视情填写
 
 tun驱动模式NAT,需要ROOT权限运行；应用层NAT模式，非ROOT权限无法收发ping包
