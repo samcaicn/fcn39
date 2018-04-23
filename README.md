@@ -13,7 +13,7 @@ fcn = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
-* download FCN V3.3 FULL 百度网盘 https://pan.baidu.com/s/1sG3L6wXaramK9-w8OcmoJg
+* download FCN V3.3 FULL 百度网盘 https://pan.baidu.com/s/1hV3dSGjeUqRwgXvE-Dzg3Q
 
 * download FCN V3.3 binary https://github.com/boywhp/fcn/releases/download/V3.3/FCN_V3.3.zip
 
