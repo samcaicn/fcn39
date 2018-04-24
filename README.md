@@ -33,9 +33,10 @@ Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通�
 
 Linux arm/armbian 树莓派3、Orange Pi实测通过
 
-* fcn一键接入局域网操作视频
-
+## FCN(Windows版)一键接入局域网操作视频
+* 首先创建FCN服务端 
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
+* 运行客户端从互联网连接到FCN服务端局域网
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
 
 * fcn接入原理示意图
