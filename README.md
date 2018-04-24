@@ -33,15 +33,14 @@ Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通�
 
 Linux arm/armbian 树莓派3、Orange Pi实测通过
 
+* fcn一键接入局域网操作视频
+
+![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
+![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
+
 * fcn接入原理示意图
 
 ![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
-
-* fcn安卓版实际操作视频 https://weibo.com/tv/v/FCcaGmpbz
-
-* fcn接入斐讯PSG1218/K2路由操作演示
-
-![image](https://github.com/boywhp/fcn/blob/master/doc/fcn_k2_rt.gif)
 
 # 2. fcn常用使用场景
 
