@@ -130,7 +130,7 @@ if [ $1 = "up" ] ; then
     /etc/storage/fcn/fcn --nolog
 fi
 ```
-
+* 重启路由器
 
 ## 3.3 运行windows客户端
 
