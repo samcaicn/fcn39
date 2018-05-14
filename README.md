@@ -123,7 +123,7 @@ sudo ./fcn_x64    # tun驱动NAT模式
 [notun]=1
 ```
 * 使用winscp或者xshell上传fcn_mipsel以及fcn.conf到/etc/storage/fcn/目录
-
+* 加执行权限 chmod +x /etc/storage/fcn
 * 登陆路由器Web界面 高级设置->自定义->脚本->WAN 上行/下行 事件后运行, 添加如下代码
 ```bash
 if [ $1 = "up" ] ; then
