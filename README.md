@@ -94,8 +94,9 @@ sudo ./fcn_x64    # tun驱动NAT模式
 ```
 注:FCN服务端一个配置只能运行一个实体, 更改配置后, 需要kill掉旧的进程, 否则会提示错误
 
-## 3.2 开机自启动[Thanks to 榭寄生], debian linux环境
+## 3.2 开机自启动-嵌入式Linux
 
+### 3.2.1 树莓派3[Thanks to 榭寄生], debian linux环境
 * 建立启动脚本 fcn.sh, 内容如下:
 
 ```bash
@@ -108,6 +109,28 @@ sudo ./fcn_x64    # tun驱动NAT模式
 * 创建软链接 ln -s /home/pi/your_fcn_dir/fcn.sh /etc/init.d/fcn
 
 * 添加自启动 update-rc.d fcn defaults 99
+
+### 3.2.2 斐讯K2路由器-Padavan
+
+* ssh 登陆上路由器创建fcn目录 mkdir /etc/storage/fcn
+
+* 编辑fcn.conf配置文件模板如下:
+```bash
+[uid]=FCN_1234
+[psk]=YOUR_PASSWORD
+[name]=PSG_K2
+[nat_nic]=br0
+[notun]=1
+```
+* 使用winscp或者xshell上传fcn_mipsel以及fcn.conf到/etc/storage/fcn/目录
+
+* 登陆路由器Web界面 高级设置->自定义->脚本->WAN 上行/下行 事件后运行, 添加如下代码
+```bash
+if [ $1 = "up" ] ; then
+    /etc/storage/fcn/fcn --nolog
+fi
+```
+
 
 ## 3.3 运行windows客户端
 
