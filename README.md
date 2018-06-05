@@ -13,11 +13,11 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
-* download FCN V3.3 FULL 百度网盘 https://pan.baidu.com/s/1hV3dSGjeUqRwgXvE-Dzg3Q
+* download FCN V3.4 FULL 百度网盘 https://pan.baidu.com/s/1YVA_tSLnUP1JsKotKojFdw
 
-* download FCN V3.3 binary https://github.com/boywhp/fcn/releases/download/V3.3/FCN_V3.3.zip
+* download FCN V3.4 binary https://github.com/boywhp/fcn/releases/download/V3.4/FCN_V3.4.zip
 
-* download FCN V3.3 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.3/embeded-linux.zip
+* download FCN V3.4 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.4/embeded-linux.zip
 
 * FCN支持操作系统平台
 
@@ -160,8 +160,9 @@ Linux命令行客户端支持参数如下：
 |--tcp | 使用TCP链路，建议不填，使用UDP
 |--vpn | 是否开启全局路由，默认接入服务端网卡网段，建议按需填写
 |--fwd | 开启服务端局域网数据自动转发到虚拟网卡，建议按需开启。
-|--nolog | FCN服务器不记录日志，默认开启日志记录到fcn.log文件
-|--nodaemon | FCN服务器以控制台模式运行，默认后台执行。
+|--nolog | FCN客户端不记录日志，默认开启日志记录到fcn.log文件
+|--nodaemon | FCN客户端以控制台模式运行，默认后台执行。
+|--nocompress | FCN客户端不开启数据包压缩支持。
 
 # 4. FCN安全吗？
 
