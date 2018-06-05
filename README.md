@@ -17,7 +17,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * download FCN V3.4 binary https://github.com/boywhp/fcn/releases/download/V3.4/FCN_V3.4.zip
 
-* download FCN V3.4 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.4/embeded-linux.zip
+* download FCN V3.4 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.4/embedded-linux.zip
 
 * FCN支持操作系统平台
 
