@@ -9,7 +9,7 @@ FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn�
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
-* FCN使用交流QQ群: `592512533` FCN交流论坛 http://bbs.xfconnect.com
+* FCN使用交流QQ群: `592512533`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
