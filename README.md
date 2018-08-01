@@ -13,7 +13,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
 
-* download FCN V3.4 FULL 百度网盘 https://pan.baidu.com/s/1YVA_tSLnUP1JsKotKojFdw
+* download FCN V3.5 FULL 百度网盘 https://pan.baidu.com/s/1Mkg3iwxCf0N_ke9GrSahdA
 
 * download FCN V3.5 binary https://github.com/boywhp/fcn/releases/download/V3.5/FCN_V3.5.zip
 
@@ -46,9 +46,11 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 # 2. FCN实际案例
 
 使用FCN跨互联网组网
+
 https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt
 
 使用FCN远程唤醒PC，并远程管理
+
 https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt
 
 # 3. FCN使用
