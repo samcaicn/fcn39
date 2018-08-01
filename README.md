@@ -15,9 +15,9 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * download FCN V3.4 FULL 百度网盘 https://pan.baidu.com/s/1YVA_tSLnUP1JsKotKojFdw
 
-* download FCN V3.4 binary https://github.com/boywhp/fcn/releases/download/V3.4/FCN_V3.4.zip
+* download FCN V3.5 binary https://github.com/boywhp/fcn/releases/download/V3.5/FCN_V3.5.zip
 
-* download FCN V3.4 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.4/embedded-linux.zip
+* download FCN V3.5 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.5/embedded-linux.zip
 
 * FCN支持操作系统平台
 
@@ -43,30 +43,19 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 
 ![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
-# 2. FCN常用使用场景
+# 2. FCN实际案例
 
-FCN设计理念是, 用最简洁的界面操作, 提供一套完整的网络接入解决方案, 使用场景介绍见PPT
+使用FCN跨互联网组网
+https://github.com/boywhp/fcn/blob/master/doc/FCN%E5%AE%9E%E9%99%85%E6%A1%88%E4%BE%8B1.ppt
 
-http://pan.baidu.com/s/1o8r2w7g
-
-FCN Lan2Lan简介
-
-http://weibo.com/ttarticle/p/show?id=2309404124768579250283
-
-|使用场景|描述|实际操作
-|-------|---|--
-| 管理远程主机 | 无需公网IP对任意联网机器进行远程管理 | http://pan.baidu.com/s/1slpu4f7
-| 远程接入Lan | 一键访问远程局域网网段 | http://pan.baidu.com/s/1gfP7ZCv
-| 远程客户演示 | FCN服务端支持IP及端口访问限制, 可临时提供有限网络访问权限 | http://pan.baidu.com/s/1qXND5bY
-| Lan2Lan | 通过FCN客户端代理本地局域网机器访问远程局域网 | http://pan.baidu.com/s/1slM5N6P
-| 远程虚拟组网 | 通过FCN虚拟网卡透过互联网组建虚拟局域网 | --
-| 网络代理池 | FCN链路聚合同时连接多个服务端, 出口IP随机切换 | --
+使用FCN远程唤醒PC，并远程管理
+https://github.com/boywhp/fcn/blob/master/doc/FCN%20%E6%A1%88%E4%BE%8B2.ppt
 
 # 3. FCN使用
 
 ## 3.1 运行客户服务端
 
-首先配置fcn.conf配置文件, 注意目前测试帐户 `FCN_0000-FCN_9999`, **每个帐户限速100KB/s，每日流量配额150M**[点对点通信成功后无限制]，请用户随机挑选测试帐户，并且设置自己的唯一服务器名，以防止帐户冲突
+FCN默认加载当前目录下的fcn.conf配置文件,用户也可以手工指定, 注意目前测试帐户 `FCN_0000-FCN_9999`, **每个帐户限速100KB/s，日流量配额150M**[点对点通信成功后无限制]，请用户随机挑选测试帐户，并且设置自己的唯一服务器名，以防止帐户冲突
 
 |配置键值|描述
 |-------|---
@@ -76,16 +65,18 @@ http://weibo.com/ttarticle/p/show?id=2309404124768579250283
 | [psk] | 管理员账号密码hash或者明文密码，建议使用hash
 | [cipher] | 指定加密算法【aes-256-cfb/aes-128-cfb/chacha20】，默认aes-256-cfb
 | [authfile] | 用户列表文件名，用户列表文件使用fcn_win.exe获取
-| [udp]| 0/1, 设置数据包通信类型  0:TCP 1:UDP，建议不填使用UDP
+| [log] | 指定服务端日志输出文件, 默认不输出日志
+| [compress] | 指定是否开启数据包压缩，默认1开启
+| [udp] | 0/1, 设置数据包通信类型  0:TCP 1:UDP，建议不填使用UDP
 | [nat_nic] | 虚拟接入后连接的服务器网卡名, 建议不填
 | [dhcp_ip/dhcp_mask/dhcp_dns] |  虚拟接入后DHCP网段, DHCP DNS服务器地址, 建议不填
-| [uport]| 自定义udp通信端口, 默认5000，自定义[1000-2000], 建议不填
-| [tport]| 自定义tcp通信端口, 默认8000，自定义[1000-2000], 建议不填
-| [pport]| 自定义p2p通信端口, 除非服务端可做端口映射，否则不要填
-| [fcn_svr]| 设置公网FCN服务器地址,默认s1.xfconnect.com, 建议不填
-| [notun]| 0/1, 0:自动 1:强制应用层NAT，建议不填
-| [portmap]| 0/1, 是否开启服务端端口转发, 视情填写
-| [route]| 设置路由网段推送列表, 视情填写
+| [uport] | 自定义udp通信端口, 默认5000，自定义[1000-2000], 建议不填
+| [tport] | 自定义tcp通信端口, 默认8000，自定义[1000-2000], 建议不填
+| [pport] | 自定义p2p通信端口, 除非服务端可做端口映射，否则不要填
+| [host] | 设置公网FCN服务器地址,默认s1.xfconnect.com, 建议不填
+| [notun] | 0/1, 0:自动 1:强制应用层NAT，建议不填
+| [portmap] | 0/1, 是否开启服务端端口转发, 视情填写
+| [route] | 设置路由网段推送列表, 视情填写
 
 tun驱动模式NAT,需要ROOT权限运行；应用层NAT模式，非ROOT权限无法收发ping包
 ```shell
@@ -144,25 +135,26 @@ fi
 
 Linux客户端、服务端功能已整合在同一个可执行中，程序通过命令行参数决定启动客户端或服务端功能，客户端最常见参数如下：
 ```bash
-sudo ./fcn --uid FCN_0001 --svr SVR0001 --psk 'PASSWORD'
+sudo ./fcn --uid FCN_0001 --name SVR0001 --psk 'PASSWORD'
+sudo ./fcn --cfg client.conf
 ```
-Linux命令行客户端支持参数如下：
+Linux客户端配置文件参数如下：
 
 |参数名|描述
 |-------|---
-|--uid | 对应服务端用户ID参数
-|--psk | 对应服务端用户连接密码参数
-|--svr | 对应服务端服务器名
-|--usr | 对应服务端用户名
-|--host | FCN公共服务器地址，默认s1.xfconnect.com，建议直接填写对应的ip地址
-|--tun | 指定客户端虚拟网卡的名称，默认tun_fcn，建议多个FCN客户端时填写
-|--tunip | 手工指定客户端虚拟网卡IP地址
-|--tcp | 使用TCP链路，建议不填，使用UDP
-|--vpn | 是否开启全局路由，默认接入服务端网卡网段，建议按需填写
-|--fwd | 开启服务端局域网数据自动转发到虚拟网卡，建议按需开启。
-|--nolog | FCN客户端不记录日志，默认开启日志记录到fcn.log文件
-|--nodaemon | FCN客户端以控制台模式运行，默认后台执行。
-|--nocompress | FCN客户端不开启数据包压缩支持。
+| [uid] | 对应服务端用户ID参数
+| [psk] | 对应服务端用户连接密码参数, 必须是明文
+| [name] | 对应服务端服务器名
+| [usr] | 对应服务端用户名
+| [host] | FCN公共服务器地址，默认s1.xfconnect.com，建议直接填写对应的ip地址
+| [tun] | 指定客户端虚拟网卡的名称，默认tun_fcn，建议多个FCN客户端时填写
+| [tunip] | 手工指定客户端虚拟网卡IP地址
+| [udp] | 设置数据包通信类型，0:TCP/1:UDP，默认1 UDP，建议默认
+| [vpn] | 是否开启全局路由，默认接入服务端网卡网段，建议按需填写
+| [fwd] | 开启服务端局域网数据自动转发到虚拟网卡，建议按需开启
+| [log] | 指定服务端日志输出文件, 默认不输出日志
+| [client] | 1/0，指示客户端模式运行，必须填1
+| [compress] | 指定是否开启数据包压缩，默认1开启
 
 # 4. FCN安全吗？
 
