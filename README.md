@@ -135,7 +135,7 @@ fi
 
 ## 3.4 运行Linux客户端
 
-Linux客户端、服务端功能已整合在同一个可执行中，程序通过命令行参数决定启动客户端或服务端功能，客户端最常见参数如下：
+Linux客户端/服务端功能已整合在同一个可执行文件中，客户端最常见参数如下：
 ```bash
 sudo ./fcn --uid FCN_0001 --name SVR0001 --psk 'PASSWORD'
 sudo ./fcn --cfg client.conf
