@@ -120,7 +120,7 @@ sudo ./fcn_x64    # tun驱动NAT模式
 * 登陆路由器Web界面 高级设置->自定义->脚本->WAN 上行/下行 事件后运行, 添加如下代码
 ```bash
 if [ $1 = "up" ] ; then
-    /etc/storage/fcn/fcn --nolog
+    /etc/storage/fcn/fcn_mipsel
 fi
 ```
 * 重启路由器
