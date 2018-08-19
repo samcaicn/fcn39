@@ -125,6 +125,28 @@ fi
 ```
 * 重启路由器
 
+### 3.2.3 斐讯K2P路由器博通版-Merlin
+
+* 登录路由器打开ssh服务[梅林固件默认不开ssh服务]
+* 编辑fcn.conf配置文件模板如下:
+```bash
+[uid]=FCN_1234
+[psk]=YOUR_PASSWORD
+[name]=MERLIN_K2P
+[nat_nic]=br0
+[notun]=1
+```
+* mkdir /jffs/fcn
+* 使用winscp或web控制台上传openwrt/fcn_armhf以及fcn.conf到/jffs/fcn目录
+* chmod +x /jffs/fcn/fcn_armhf
+* 添加自定义Wan连接成功脚本
+```bash
+#!/bin/sh
+modprobe tun
+/jffs/fcn/fcn_armhf
+```
+* 重启路由器
+
 ## 3.3 运行windows客户端
 
 主界面添加服务器, 填写对应的连接参数, 连接, 成功后, windows客户端即接入了服务器对应局域网, 客户端/服务端参数对应如下
