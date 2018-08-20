@@ -105,6 +105,8 @@ sudo ./fcn_x64    # tun驱动NAT模式
 
 ### 3.2.2 斐讯K2路由器-Padavan
 
+* 实际操作视频 https://github.com/boywhp/fcn/blob/master/doc/FCN_K2.avi
+
 * ssh 登陆上路由器创建fcn目录 mkdir /etc/storage/fcn
 
 * 编辑fcn.conf配置文件模板如下:
