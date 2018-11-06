@@ -9,15 +9,13 @@ FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn�
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
-* FCN使用交流QQ群: `592512533`
-
-* 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
-
 * download FCN V3.6 FULL 百度网盘 https://pan.baidu.com/s/1Ptz6oq6FzBGOos7Q-GwoTQ
 
 * download FCN V3.6 binary https://github.com/boywhp/fcn/releases/download/FCN_V3.6/FCN_V3.6.zip
 
 * download FCN V3.6 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.6/embedded-linux.zip
+
+* FCN使用交流QQ群: `592512533`
 
 * FCN支持操作系统平台
 
