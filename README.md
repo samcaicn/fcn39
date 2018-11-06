@@ -9,21 +9,20 @@ FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn�
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
+* download FCN V3.6 FULL 百度网盘 https://pan.baidu.com/s/1Ptz6oq6FzBGOos7Q-GwoTQ
+
+* download FCN V3.6 binary https://github.com/boywhp/fcn/releases/download/FCN_V3.6/FCN_V3.6.zip
+
+* download FCN V3.6 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.6/embedded-linux.zip
+
 * FCN使用交流QQ群: `592512533`
-
-* 申请付费帐户 https://github.com/boywhp/fcn/tree/master/vip
-
-* download FCN V3.5 FULL 百度网盘 https://pan.baidu.com/s/1Mkg3iwxCf0N_ke9GrSahdA
-
-* download FCN V3.5 binary https://github.com/boywhp/fcn/releases/download/V3.5/FCN_V3.5.zip
-
-* download FCN V3.5 嵌入式版本  https://github.com/boywhp/fcn/releases/download/V3.5/embedded-linux.zip
 
 * FCN支持操作系统平台
 
 |操作系统|文件名
 |-------|---
 | Windows操作系统 | windows/fcn_win.exe
+| MacOS操作系统 | macos/fcn_mac_x64
 | Linux操作系统 | linux/fcn_x64/x86
 | Linux 路由器 | linux-embedded/lede或openwrt/fcn_`mips/mipsel/arm/armhf`
 | Linux arm | linux-embedded/`fcn-arm/armbian`
@@ -172,7 +171,7 @@ Linux客户端配置文件参数如下：
 | [psk] | 对应服务端用户连接密码参数, 必须是明文
 | [name] | 对应服务端服务器名
 | [usr] | 对应服务端用户名
-| [host] | FCN公共服务器地址，默认s1.xfconnect.com，建议直接填写对应的ip地址
+| [host] | FCN公共服务器地址，默认free.xfconnect.com，建议直接填写对应的ip地址
 | [tun] | 指定客户端虚拟网卡的名称，默认tun_fcn，建议多个FCN客户端时填写
 | [tun_ip] | 手工指定客户端虚拟网卡IP地址
 | [udp] | 设置数据包通信类型，0:TCP/1:UDP，默认1 UDP，建议默认
@@ -191,7 +190,7 @@ FCN公网服务器不会收集用户的任何网络数据，同时支持用户�
 ## 4.1 FCN安全机制
 
 * FCN公网服务器和fcn客户端之间通过TLS证书双向验证确保信道安全
-* FCN用户服务端每30分钟向fcn公网服务器请求随机数
+* FCN用户服务端每60分钟向fcn公网服务器请求随机数
 * FCN公网服务器使用真随机数发生器产生随机数, 并通过TLS连接安全传递给用户
 * FCN客户端/服务端通过 随机码 + UID + PSK 计算出一个会话key
 * FCN客户端/服务端使用会话key对通信数据包全程aes256加密
