@@ -53,7 +53,7 @@ chmod +x  $Fcn_bin
 read -p "Input your fcn ID(0000-9999):" fcn_id
 sed -i "s/0001/$fcn_id/g" $Fcn/fcn.conf
 read -p "Input your fcn PSK:" fcn_psk
-sed -i "s/ab7d5ac276eafbce6e1e8a5d092c4b79efc250b28997a1eb5182fd39b36edb74/$fcn_psk/g" $Fcn/fcn.conf
+sed -i "s/password/$fcn_psk/g" $Fcn/fcn.conf
 read -p "Input your fcn Name:" fcn_name
 sed -i "s/SERVER01/$fcn_name/g" $Fcn/fcn.conf
 
