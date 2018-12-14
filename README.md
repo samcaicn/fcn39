@@ -37,6 +37,8 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
 * 运行客户端从互联网连接到FCN服务端局域网
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
+* 安卓版本远程桌面开关机操作视频
+http://t.cn/EwY0oXm
 
 * FCN接入原理示意图
 
