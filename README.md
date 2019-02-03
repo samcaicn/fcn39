@@ -11,7 +11,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * download FCN V3.6 FULL 百度网盘 https://pan.baidu.com/s/1Ptz6oq6FzBGOos7Q-GwoTQ
 
-* download FCN V3.7 binary https://github.com/boywhp/fcn/releases/download/FCN_V3.7/FCN_V3.7_FULL.zip
+* download FCN V3.7 FULL https://github.com/boywhp/fcn/releases/download/FCN_V3.7/FCN_V3.7_FULL.zip
 
 * FCN使用交流QQ群: `822475769` ~~592512533(已满)~~
 
@@ -20,6 +20,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 |操作系统|文件名
 |-------|---
 | Windows操作系统 | windows/fcn_win.exe
+| Debian GTK版本 | Ubuntu/fcn.deb
 | MacOS操作系统 | macos/fcn_mac_x64
 | Linux操作系统 | linux/fcn_x64/x86
 | Linux 路由器 | linux-embedded/lede或openwrt/fcn_`mips/mipsel/arm/armhf`
