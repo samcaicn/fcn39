@@ -39,6 +39,9 @@ Linux arm/armbian 树莓派3、Orange Pi实测通过
 * 安卓版本远程桌面开关机操作视频
 http://t.cn/EwY0oXm
 
+* Ubuntu GTK版本操作演示视频
+https://www.bilibili.com/video/av41877029
+
 * FCN接入原理示意图
 
 ![image](https://github.com/boywhp/fcn/raw/master/doc/FCN%E7%BD%91%E7%BB%9C%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
