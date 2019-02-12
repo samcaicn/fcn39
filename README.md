@@ -13,7 +13,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * download FCN V3.7 FULL https://github.com/boywhp/fcn/releases/download/FCN_V3.7/FCN_V3.7_FULL.zip
 
-* FCN使用交流QQ群: `822475769` ~~592512533(已满)~~
+* FCN使用交流QQ群: `822475769` ~~592512533(已满)~~ 请务必填写加群理由(FCN使用交流)
 
 * FCN支持操作系统平台
 
