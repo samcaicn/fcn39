@@ -17,15 +17,14 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 * FCN支持操作系统平台
 
-|操作系统|文件名
-|-------|---
-| Windows操作系统 | windows/fcn_win.exe
-| Debian GTK版本 | Ubuntu/fcn.deb
-| MacOS操作系统 | macos/fcn_mac_x64
-| Linux操作系统 | linux/fcn_x64/x86
-| Linux 路由器 | linux-embedded/lede或openwrt/fcn_`mips/mipsel/arm/armhf`
-| Linux arm | linux-embedded/`fcn-arm/armbian`
-| Android | Fcn.apk
+|操作系统|文件名|下载地址
+|-------|---|---
+| Windows操作系统 | fcn_win.exe | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_win.zip
+| Debian GTK版本 | fcn.deb | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.deb
+| MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_mac.zip
+| Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.apk
+| Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_linux.zip
+
 
 Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过，openwrt/lede需自行安装`libopenssl`包
 
