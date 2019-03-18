@@ -1,6 +1,9 @@
 # FCN
 free connect your private network from anywhere
 
+![](https://img.shields.io/github/release/boywhp/fcn.svg)
+![](https://img.shields.io/github/downloads/boywhp/fcn/total.svg)
+
 # 1. FCN简介
 
 FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn利用公共服务器以及数据加密技术实现：
