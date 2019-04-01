@@ -6,7 +6,7 @@ free connect your private network from anywhere
 
 # 1. FCN简介
 
-FCN[`free connect`]是一款傻瓜式的一键接入私有网络的工具, fcn利用公共服务器以及数据加密技术实现：
+FCN[`free connect`]是一款傻瓜式的一键接入**闭源闭源闭源**私有网络的工具, fcn利用公共服务器以及数据加密技术实现：
 
 在免公网IP环境下，在任意联网机器上**透明接入服务端所在局域网网段**
 
