@@ -23,6 +23,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 | MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_mac.zip
 | Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.apk
 | Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_linux.zip
+| Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
 
 Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过，openwrt/lede需自行安装`libopenssl`包
