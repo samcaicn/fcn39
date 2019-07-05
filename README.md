@@ -26,7 +26,7 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 | Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
 
-Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过，openwrt/lede需自行安装`libopenssl`包
+Linux openwrt/lede WR703N、华硕N14U、斐讯K2/K2P Openwrt/Padavan实测通过
 
 Linux arm/armbian 树莓派3、Orange Pi实测通过
 
