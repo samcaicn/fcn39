@@ -150,7 +150,7 @@ fi
 * mkdir /jffs/fcn
 * 使用winscp或web控制台上传openwrt/fcn_armhf以及fcn.conf到/jffs/fcn目录
 * chmod +x /jffs/fcn/fcn_armhf
-* 添加自定义Wan连接成功脚本
+* 添加自定义Wan连接成功脚本 /jffs/scripts/wan-start
 ```bash
 #!/bin/sh
 modprobe tun
