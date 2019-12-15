@@ -181,7 +181,7 @@ Linux客户端配置文件参数如下：
 | [psk] | 对应服务端用户连接密码参数, 必须是明文
 | [name] | 对应服务端服务器名
 | [usr] | 对应服务端用户名
-| [host] | FCN公共服务器地址，默认free.xfconnect.com，建议直接填写对应的ip地址
+| [host] | FCN公共服务器地址，默认free.xfconnect.com，建议默认
 | [tun] | 指定客户端虚拟网卡的名称，默认tun_fcn，建议多个FCN客户端时填写
 | [tun_ip] | 手工指定客户端虚拟网卡IP地址
 | [udp] | 设置数据包通信类型，0:TCP/1:UDP，默认1 UDP，建议默认
