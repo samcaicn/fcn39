@@ -37,7 +37,7 @@ https://github.com/boywhp/fcn/wiki
 ## FCN(Windows版)一键接入局域网操作视频
 * 首先创建FCN服务端 
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_s.gif)
-* 运行客户端从互联网连接到FCN服务端局域网
+* 运行客户端从互联网连接到FCN服务端局域网，【注意】3.7版本以上不要输用户名
 ![image](https://github.com/boywhp/fcn/blob/master/doc/fcn3.3_win7_c.gif)
 * 安卓版本远程桌面开关机操作视频
 http://t.cn/EwY0oXm
