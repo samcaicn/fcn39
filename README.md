@@ -18,11 +18,11 @@ FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端`
 
 |操作系统|文件名|下载地址
 |-------|---|---
-| Windows操作系统 | fcn_win.exe | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_win.zip
-| Debian GTK版本 | fcn.deb | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.deb
-| MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_mac.zip
-| Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.apk
-| Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn_linux.zip
+| Windows操作系统 | fcn_win.exe | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_win.zip
+| Debian GTK版本 | fcn.deb | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn.deb
+| MacOS操作系统 | fcn_mac.app | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_mac.zip
+| Android | fcn.apk | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn.apk
+| Linux/嵌入式Linux | fcn_x64/x86/... | https://github.com/boywhp/fcn/releases/download/FCN_V3.9/fcn_linux.zip
 | Koolshare梅林插件 | fcn.tar.gz | https://github.com/boywhp/fcn/releases/download/FCN_V3.8/fcn.tar.gz
 
 
