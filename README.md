@@ -12,6 +12,14 @@ FCN[`free connect`]是一款**闭源**傻瓜式的一键接入私有网络的工
 
 FCN = `用户服务端` <--- `FCN公共服务器` --- > `用户客户端` 
 
+
+download FCN V3.7 FULL 百度网盘 https://pan.baidu.com/s/1IpR7vd-MoheOggMXDhpnEg
+
+
+
+FCN使用交流QQ群: 822475769 592512533(已满)
+
+
 * FCN使用交流QQ群: 783079998 ~~822475769(已满)~~ ~~592512533(已满)~~ 请务必填写加群理由(FCN使用交流)
 
 * FCN支持操作系统平台
